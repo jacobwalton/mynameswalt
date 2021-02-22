@@ -1,0 +1,23 @@
+.landingContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  flex-direction: column;
+  text-align: center;
+}
+
+.header {
+  font-size: 150px;
+  margin: 0 auto;
+  color: white;
+  background: none;
+  margin-bottom: -30px;
+}
+
+.socialLink {
+  text-decoration: underline;
+  color: white;
+  font-size: 20px;
+}

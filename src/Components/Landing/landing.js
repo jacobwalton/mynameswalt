@@ -4,20 +4,41 @@ import "./landing.css";
 const landing = () => {
   return (
     <div className="landingContainer">
-      <h2 className="header">walt</h2>
-      <div>
+      <h2 className="header">WALT</h2>
+      <div className="linkContainer">
         <a
+          role="textbox"
+          aria-multiline="true"
+          className="link"
+          href="https://www.instagram.com/mynameswalt"
+          target="_blank"
+        >
+          music
+        </a>
+        <a
+          role="textbox"
+          aria-multiline="true"
+          className="link"
+          href="https://www.instagram.com/mynameswalt"
+          target="_blank"
+        >
+          merch
+        </a>
+        <a
+          role="textbox"
+          aria-multiline="true"
+          className="link"
           href="https://www.twitter.com/mynameswalt"
           target="_blank"
-          className="socialLink"
         >
           twitter
         </a>
-        <br />
         <a
+          role="textbox"
+          aria-multiline="true"
+          className="link"
           href="https://www.instagram.com/mynameswalt"
           target="_blank"
-          className="socialLink"
         >
           instagram
         </a>

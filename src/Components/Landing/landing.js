@@ -10,7 +10,7 @@ const landing = () => {
           role="textbox"
           aria-multiline="true"
           className="link"
-          href="https://www.instagram.com/mynameswalt"
+          href="/music"
           target="_blank"
         >
           music
@@ -19,7 +19,7 @@ const landing = () => {
           role="textbox"
           aria-multiline="true"
           className="link"
-          href="https://www.instagram.com/mynameswalt"
+          href="/merch"
           target="_blank"
         >
           merch

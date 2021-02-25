@@ -6,20 +6,26 @@
   background: none;
   flex-direction: column;
   text-align: center;
-  animation: landingAnimation ease-in-out 1.4s;
+  animation: landingAnimation ease-in-out 1s;
   animation-iteration-count: 1;
   transform-origin: 50% 50%;
+  filter: drop-shadow(0.1em 0.1em rgba(255, 0, 0, 0.6));
+  mix-blend-mode: difference;
 }
 
 @keyframes landingAnimation {
   0% {
     opacity: 0;
     transform: translate(0px, -100px);
+    filter: drop-shadow(0.3em 1em hsl(250, 100%, 50%, 0.3));
+
+    filter: drop-shadow(1em 0.4em hsla(0, 100%, 50%, 0.3));
   }
 
   100% {
     opacity: 100;
     transform: translate(0px, 0px);
+    filter: drop-shadow(0.19em 0.09em hsl(250, 100%, 50%, 0.3));
   }
 }
 
@@ -43,25 +49,28 @@
   font-weight: bold;
   outline: none;
   font-style: italic;
-  filter: drop-shadow(0.1em 0.1em rgba(255, 0, 0, 0.6));
-  animation: rgbAnimation ease-in-out 0.2s;
+  filter: drop-shadow(0.08em 0.08em rgba(255, 0, 0, 0.6));
+  animation: rgbAnimation ease-in-out 0.4s;
   animation-iteration-count: infinite;
   transform-origin: 50% 50%;
+}
+
+.link:hover {
+  animation: none;
 }
 
 @keyframes rgbAnimation {
   0% {
     filter: drop-shadow(0.12em 0.15em hsla(0, 100%, 50%, 0.6));
   }
-  0% {
+  25% {
     filter: drop-shadow(0.08em 0.15em hsl(241, 100%, 50%, 0.6));
   }
-  0% {
+  50% {
     filter: drop-shadow(0.04em 0.1em hsl(0, 100%, 50%, 0.6));
   }
 
   100% {
-    filter: drop-shadow(0.19em 0.09em hsl(250, 100%, 50%, 0.6));
-    transform: translate(0px, 0px);
+    filter: drop-shadow(0.12em 0.09em hsl(250, 100%, 50%, 0.6));
   }
 }

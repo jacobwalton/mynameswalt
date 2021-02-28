@@ -1,3 +1,6 @@
 body {
   background: black;
 }
+.App {
+  min-height: calc(100vh - 70px);
+}

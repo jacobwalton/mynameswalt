@@ -1,9 +1,9 @@
 import React from "react";
-import "./landing.css";
+import "./header.css";
 
-const landing = () => {
+const Header = () => {
   return (
-    <div className="landingContainer">
+    <div className="headerContainer">
       <h2 className="header">WALT</h2>
       <div className="linkContainer">
         <a
@@ -47,4 +47,4 @@ const landing = () => {
   );
 };
 
-export default landing;
+export default Header;

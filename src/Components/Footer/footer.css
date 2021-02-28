@@ -1,0 +1,12 @@
+.footerContainer {
+  width: 100%;
+  background-color: black;
+  opacity: 90%;
+  height: 70px;
+}
+.footer {
+  margin-bottom: -50px;
+  position: sticky;
+  text-align: center;
+  color: white;
+}

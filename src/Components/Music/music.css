@@ -1,0 +1,36 @@
+.musicContainer {
+  display: flex;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 25%;
+  margin: 20px auto;
+  flex-direction: column;
+}
+.artwork {
+  width: 100%;
+  border-radius: 20px;
+  filter: drop-shadow(-10px 5px 0.65rem black);
+  margin-bottom: 20px;
+}
+.albumName {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.albumDesc {
+  line-height: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.albumLink {
+  letter-spacing: 3px;
+  font-weight: bold;
+  margin: 10px auto;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}

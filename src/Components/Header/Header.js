@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.css";
+import OpenInNewIcon from "@material-ui/icons/OpenInNew";
 
 const Header = () => {
   return (
@@ -32,6 +33,7 @@ const Header = () => {
           target="_blank"
         >
           twitter
+          <OpenInNewIcon style={{ marginBottom: "-5", marginLeft: "5" }} />
         </a>
         <a
           role="textbox"
@@ -41,6 +43,7 @@ const Header = () => {
           target="_blank"
         >
           instagram
+          <OpenInNewIcon style={{ marginBottom: "-5", marginLeft: "5" }} />
         </a>
       </div>
     </div>

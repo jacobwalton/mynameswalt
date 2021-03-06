@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "./music.css";
 import albums from "../../util/data";
 import OpenInNewIcon from "@material-ui/icons/OpenInNew";
@@ -12,6 +11,7 @@ const Music = () => {
             <img
               onMouseOver={(e) => (e.currentTarget.src = item.altArtwork)}
               onMouseOut={(e) => (e.currentTarget.src = item.artwork)}
+              onClick={() => window.open(item.smartUrl, "_blank")}
               className="artwork"
               src={item.artwork}
               alt={item.albumName}

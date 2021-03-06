@@ -1,12 +1,18 @@
 .footerContainer {
   width: 100%;
-  background-color: black;
-  opacity: 90%;
+  background-image: linear-gradient(grey, rgb(255, 255, 255));
+  opacity: 20%;
+  backdrop-filter: invert();
+
   height: 70px;
 }
+
 .footer {
   margin-bottom: -50px;
   position: sticky;
   text-align: center;
-  color: white;
+  color: black;
+  font-weight: light;
+  line-height: 30px;
+  letter-spacing: 7px;
 }

@@ -1,4 +1,3 @@
-import React from "react";
 import videoSource from "../../assets/RoyaltyFreeVHS.mp4";
 import "./background-video.css";
 

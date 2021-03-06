@@ -7,17 +7,19 @@
   display: flex;
   padding: 20px;
   border-radius: 30px;
-  background-image: linear-gradient(
-    rgba(50, 50, 50, 0.5),
-    rgba(255, 255, 255, 0.2)
+  background-image: radial-gradient(
+    rgba(255, 255, 255, 0.3),
+    rgba(50, 50, 50, 0.2)
   );
   backdrop-filter: blur(5px);
+
   width: 25%;
   margin: 20px auto;
   flex-direction: column;
   flex-wrap: wrap;
 }
 .artwork {
+  cursor: pointer;
   margin: 0 auto;
   width: 90%;
   border-radius: 20px;
@@ -35,6 +37,7 @@
 .albumDesc {
   line-height: 10px;
   color: white;
+
   display: flex;
   flex-direction: column;
 }
@@ -45,7 +48,6 @@
   margin: 15px auto;
   color: white;
   text-decoration: none;
-  cursor: pointer;
 }
 
 @media only screen and (max-width: 900px) {

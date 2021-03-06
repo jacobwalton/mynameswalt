@@ -28,7 +28,7 @@ const albums = [
   },
   {
     id: 3,
-    albumName: "Off Season",
+    albumName: "Off Season ft. A'Sean",
     type: "(single)",
     smartUrl: "https://smarturl.it/StreamOffSeason",
     artwork: offSeasonArt,

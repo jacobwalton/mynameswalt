@@ -17,19 +17,18 @@
 
 @keyframes headerAnimation {
   0% {
-    opacity: 0;
+    opacity: 30%;
     transform: translate(0px, -100px);
     filter: drop-shadow(0.3em 1em hsl(250, 100%, 50%, 0.3));
-    filter: invert();
   }
   25% {
-    opacity: 0;
+    opacity: 25%;
     transform: translate(0px, -100px);
 
     filter: drop-shadow(1em 0.4em hsla(0, 100%, 50%, 0.3));
   }
   50% {
-    opacity: 0;
+    opacity: 50%;
     transform: translate(0px, -100px);
     filter: drop-shadow(0.3em 1em hsl(250, 100%, 50%, 0.3));
     opacity: 80%;
@@ -77,6 +76,7 @@
   display: flex;
   justify-content: space-between;
   min-width: 40%;
+  backdrop-filter: invert();
 }
 .link {
   text-decoration: none;
@@ -90,6 +90,7 @@
   animation: rgbAnimation ease-in-out 0.4s;
   animation-iteration-count: infinite;
   transform-origin: 50% 50%;
+  backdrop-filter: invert();
 }
 
 .link:hover {
@@ -99,7 +100,7 @@
 @keyframes rgbAnimation {
   0% {
     filter: drop-shadow(0.12em 0.15em hsla(0, 100%, 50%, 0.6));
-    filter: invert();
+    backdrop-filter: invert();
   }
   25% {
     filter: drop-shadow(0.08em 0.15em hsl(241, 100%, 50%, 0.6));

@@ -1,9 +1,15 @@
 import fwwlAnimated from "../assets/fwwlAnimated.gif";
 import fwwlArt from "../assets/FINALfwwlcover.jpg";
+import postcardsArt from "../assets/postcardsCoverart.jpg";
+import postcardsAnimated from "../assets/postcardsAnimated.gif";
+import purgatoryArt from "../assets/purgatoryCover.jpg";
+import offSeasonArt from "../assets/offSeasonCover.jpg";
+import heartlessArt from "../assets/heartlessArt.jpg";
 const albums = [
   {
     id: 1,
     albumName: "From Walt With Love",
+    type: "(EP)",
     smartUrl: "https://smarturl.it/StreamFWWL",
     artwork: fwwlArt,
     altArtwork: fwwlAnimated,
@@ -13,32 +19,40 @@ const albums = [
   {
     id: 2,
     albumName: "Postcards",
+    type: "(single)",
     smartUrl: "https://smarturl.it/StreamPostcards",
-    artwork: "",
+    artwork: postcardsArt,
+    altArtwork: postcardsAnimated,
     producedBy: "Walt",
     releaseDate: "09/19/2018",
   },
   {
     id: 3,
     albumName: "Off Season",
+    type: "(single)",
     smartUrl: "https://smarturl.it/StreamOffSeason",
-    artwork: "",
+    artwork: offSeasonArt,
+    altArtwork: offSeasonArt,
     producedBy: "Walt",
     releaseDate: "05/14/2018",
   },
   {
     id: 4,
     albumName: "Purgatory",
+    type: "(single)",
     smartUrl: "https://smarturl.it/StreamPurgatory",
-    artwork: "",
+    artwork: purgatoryArt,
+    altArtwork: purgatoryArt,
     producedBy: "Walt",
     releaseDate: "02/02/2018",
   },
   {
     id: 5,
     albumName: "Heartless",
+    type: "(single)",
     smartUrl: "https://smarturl.it/streamheartless",
-    artwork: "",
+    artwork: heartlessArt,
+    altArtwork: heartlessArt,
     producedBy: "BlackMayo",
     releaseDate: "12/11/2017",
   },

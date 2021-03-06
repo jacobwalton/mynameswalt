@@ -1,22 +1,35 @@
 .musicContainer {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.musicCards {
+  display: flex;
   padding: 20px;
   border-radius: 30px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-image: linear-gradient(
+    rgba(50, 50, 50, 0.5),
+    rgba(255, 255, 255, 0.2)
+  );
+  backdrop-filter: blur(5px);
   width: 25%;
   margin: 20px auto;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 .artwork {
-  width: 100%;
+  margin: 0 auto;
+  width: 90%;
   border-radius: 20px;
   filter: drop-shadow(-10px 5px 0.65rem black);
   margin-bottom: 20px;
+  backdrop-filter: blur(5px);
 }
 .albumName {
   color: white;
   font-size: 20px;
   font-weight: bold;
+  width: 100%;
 }
 
 .albumDesc {
@@ -27,10 +40,34 @@
 }
 
 .albumLink {
-  letter-spacing: 3px;
+  letter-spacing: 5px;
   font-weight: bold;
-  margin: 10px auto;
+  margin: 15px auto;
   color: white;
   text-decoration: none;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+  .musicCards {
+    width: 80%;
+  }
+  .artwork {
+    margin: 0 0;
+    width: 20%;
+  }
+
+  .albumName {
+    position: absolute;
+    left: 30%;
+    top: 5%;
+  }
+
+  .albumDesc {
+    position: absolute;
+    left: 30%;
+    margin: 0 auto;
+    line-height: 0px;
+    margin-top: 10px;
+  }
 }

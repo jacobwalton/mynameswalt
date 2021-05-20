@@ -8,7 +8,7 @@
   background: none;
   flex-direction: column;
   text-align: center;
-  animation: 1s ease-in-out 1s 1 headerAnimation;
+  animation: 1s ease-in 1s 1 headerAnimation;
 
   transform-origin: 50% 50%;
   filter: drop-shadow(0.2em 0.2em rgba(255, 0, 0, 0.6));

@@ -7,7 +7,7 @@ const MissionStatement = () => {
       <div className="missionStatement">
         <h2>Mission Statement</h2>
 
-        <p>
+        <p id="missionStatementText">
           mission statement text here mission statement text here mission
           statement text here mission statement text here mission statement text
           here mission statement text here mission statement text here mission

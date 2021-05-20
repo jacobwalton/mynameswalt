@@ -1,0 +1,26 @@
+.missionStatement {
+  color: black;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 80%;
+  display: flex;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.8),
+    rgba(39, 39, 39, 0.1)
+  );
+  backdrop-filter: blur(10px);
+  flex-direction: column;
+  padding-bottom: 130px;
+}
+h2 {
+  text-align: center;
+  margin: 0 auto;
+}
+p {
+  font-weight: lighter;
+  filter: drop-shadow(0 5em rgba(63, 63, 63, 0.6));
+}

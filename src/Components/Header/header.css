@@ -15,6 +15,23 @@
   mix-blend-mode: difference;
 }
 
+.backgroundWords {
+  margin: 0;
+  opacity: 70%;
+  width: 100%;
+  display: flex;
+  background: none;
+  flex-direction: column;
+  text-align: center;
+  font-size: 400%;
+  color: white;
+  mix-blend-mode: difference;
+  position: fixed;
+  padding: 0;
+  animation: 0.4s linear 1s infinite headerRGB;
+  animation: 5s alternate-reverse 1s infinite headerAnimation;
+}
+
 @keyframes headerAnimation {
   0% {
     opacity: 30%;
@@ -28,14 +45,14 @@
     filter: drop-shadow(1em 0.4em hsla(0, 100%, 50%, 0.3));
   }
   50% {
-    opacity: 50%;
+    opacity: 40%;
     transform: translate(0px, -100px);
     filter: drop-shadow(0.3em 1em hsl(250, 100%, 50%, 0.3));
     opacity: 80%;
   }
 
   100% {
-    opacity: 100;
+    opacity: 60;
     transform: translate(0px, 0px);
     filter: drop-shadow(0.19em 0.09em hsl(250, 100%, 50%, 0.3));
   }
@@ -79,6 +96,7 @@
   backdrop-filter: invert();
 }
 .link {
+  cursor: pointer;
   text-decoration: none;
   color: rgb(255, 255, 255);
   mix-blend-mode: difference;

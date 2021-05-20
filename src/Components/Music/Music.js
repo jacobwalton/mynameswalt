@@ -4,7 +4,7 @@ import OpenInNewIcon from "@material-ui/icons/OpenInNew";
 
 const Music = () => {
   return (
-    <div className="musicContainer">
+    <div id="music" className="musicContainer">
       {albums.map((item, index) => {
         return (
           <div className="musicCards">
@@ -30,25 +30,6 @@ const Music = () => {
           </div>
         );
       })}
-      {/* <div className="musicContainer">
-        
-        <img
-          onMouseOver={(e) => (e.currentTarget.src = albums[0].altArtwork)}
-          onMouseOut={(e) => (e.currentTarget.src = albums[0].artwork)}
-          className="artwork"
-          src={albums[0].artwork}
-          alt={albums[0].albumName}
-        />
-        <div className="albumName">{albums[0].albumName}</div>
-
-        <div className="albumDesc">
-          <p>Produced by: {albums[0].producedBy}</p>
-          <p>Released: {albums[0].releaseDate}</p>
-          <a className="albumLink" href={albums[0].smartUrl} target="_blank">
-            Listen Now <OpenInNewIcon style={{ marginBottom: "-5" }} />
-          </a>
-        </div>
-      </div> */}
     </div>
   );
 };

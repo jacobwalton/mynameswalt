@@ -4,10 +4,10 @@ import { Link } from "react-scroll";
 
 const Header = () => {
   return (
-    <div>
+    <div id="home">
       <div className="headerContainer">
         <a href="/" style={{ textDecoration: "none" }}>
-          <h2 id="home" className="header">
+          <h2 className="header">
             <Link activeClass="active" to="home" spy={true} smooth={true}>
               WALT
             </Link>
@@ -37,7 +37,11 @@ const Header = () => {
         </div>
       </div>
       <div className="backgroundWords">
-        <h1>walt's not here</h1>
+        <h1>
+          <Link activeClass="active" to="home" spy={true} smooth={true}>
+            walt's not here
+          </Link>
+        </h1>
         <br />
       </div>
     </div>

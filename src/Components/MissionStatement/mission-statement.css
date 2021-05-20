@@ -5,7 +5,7 @@
   margin-top: 30px;
   width: 80%;
   display: flex;
-  padding: 10px;
+  padding: 15px;
   text-align: center;
   border-radius: 10px;
   background-image: linear-gradient(
@@ -19,8 +19,19 @@
 h2 {
   text-align: center;
   margin: 0 auto;
+  padding-bottom: 5px;
 }
 p {
   font-weight: lighter;
   filter: drop-shadow(0 5em rgba(63, 63, 63, 0.6));
+}
+
+@media only screen and (max-width: 1000px) {
+  p {
+    font-weight: lighter;
+    filter: none;
+  }
+  .missionStatement {
+    padding-bottom: 10px;
+  }
 }

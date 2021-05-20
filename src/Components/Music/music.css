@@ -55,6 +55,7 @@
     width: 100%;
     height: fit-content;
     height: 100px;
+    backdrop-filter: blur(50px);
   }
   .artwork {
     margin: 0 0;

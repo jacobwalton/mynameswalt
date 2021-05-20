@@ -16,7 +16,7 @@
 }
 
 .backgroundWords {
-  margin: 0;
+  margin: 20px auto;
   opacity: 70%;
   width: 100%;
   display: flex;
@@ -139,5 +139,13 @@
     line-height: 21px;
     margin-top: -10px;
     letter-spacing: 5px;
+  }
+  .headerContainer {
+    margin: 0 auto;
+  }
+
+  .backgroundWords {
+    width: 70%;
+    font-size: 250%;
   }
 }

@@ -5,7 +5,19 @@ import postcardsAnimated from "../assets/postcardsAnimated.gif";
 import purgatoryArt from "../assets/purgatoryCover.jpg";
 import offSeasonArt from "../assets/offSeasonCover.jpg";
 import heartlessArt from "../assets/heartlessArt.jpg";
+import sevenDaysAlt from "../assets/sevenDaysAlt.png";
+import sevenDaysCover from "../assets/sevenDaysCover.png";
 const albums = [
+  {
+    id: 0,
+    albumName: "7 Days (A'Sean x Walt)",
+    type: "(EP)",
+    smartUrl: "https://smarturl.it/Stream7Days",
+    artwork: sevenDaysCover,
+    altArtwork: sevenDaysAlt,
+    producedBy: "Walt",
+    releaseDate: "03/30/2021",
+  },
   {
     id: 1,
     albumName: "From Walt With Love",

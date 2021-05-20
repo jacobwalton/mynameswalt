@@ -52,7 +52,9 @@
 
 @media only screen and (max-width: 900px) {
   .musicCards {
-    width: 80%;
+    width: 100%;
+    height: fit-content;
+    height: 100px;
   }
   .artwork {
     margin: 0 0;
@@ -60,16 +62,17 @@
   }
 
   .albumName {
+    font-size: 16px;
     position: absolute;
-    left: 30%;
-    top: 5%;
+    left: 25%;
+    top: 0%;
   }
 
   .albumDesc {
     position: absolute;
-    left: 30%;
-    margin: 0 auto;
+    left: 25%;
+    /* margin: 0 auto; */
     line-height: 0px;
-    margin-top: 10px;
+    margin-top: 0px;
   }
 }

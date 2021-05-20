@@ -6,13 +6,12 @@ const Header = () => {
   return (
     <div id="home">
       <div className="headerContainer">
-        <a href="/" style={{ textDecoration: "none" }}>
-          <h2 className="header">
-            <Link activeClass="active" to="home" spy={true} smooth={true}>
-              WALT
-            </Link>
-          </h2>
-        </a>
+        <h2 className="header">
+          <Link activeClass="active" to="home" spy={true} smooth={true}>
+            WALT
+          </Link>
+        </h2>
+
         <div className="linkContainer">
           <Link className="link" to="music" spy={true} smooth={true}>
             music

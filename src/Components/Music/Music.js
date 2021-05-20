@@ -5,9 +5,9 @@ import OpenInNewIcon from "@material-ui/icons/OpenInNew";
 const Music = () => {
   return (
     <div id="music" className="musicContainer">
-      {albums.map((item, index) => {
+      {albums.map((item, key) => {
         return (
-          <div className="musicCards">
+          <div className="musicCards" key={item.id}>
             <img
               onMouseOver={(e) => (e.currentTarget.src = item.altArtwork)}
               onMouseOut={(e) => (e.currentTarget.src = item.artwork)}

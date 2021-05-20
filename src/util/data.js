@@ -5,8 +5,8 @@ import postcardsAnimated from "../assets/postcardsAnimated.gif";
 import purgatoryArt from "../assets/purgatoryCover.jpg";
 import offSeasonArt from "../assets/offSeasonCover.jpg";
 import heartlessArt from "../assets/heartlessArt.jpg";
-import sevenDaysAlt from "../assets/sevenDaysAlt.png";
-import sevenDaysCover from "../assets/sevenDaysCover.png";
+import sevenDaysAlt from "../assets/sevenDaysAlt.jpg";
+import sevenDaysCover from "../assets/sevenDaysCover.jpg";
 const albums = [
   {
     id: 0,

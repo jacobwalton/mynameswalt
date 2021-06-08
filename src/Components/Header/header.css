@@ -8,10 +8,9 @@
   background: none;
   flex-direction: column;
   text-align: center;
-  animation: 1s ease-in 1s 1 headerAnimation;
-
+  /* animation: 1s ease-in 1s 1 headerAnimation; */
   transform-origin: 50% 50%;
-  filter: drop-shadow(0.2em 0.2em rgba(255, 0, 0, 0.6));
+  /* filter: drop-shadow(0.2em 0.2em rgba(255, 0, 0, 0.6)); */
   mix-blend-mode: difference;
 }
 
@@ -28,11 +27,11 @@
   mix-blend-mode: difference;
   position: fixed;
   padding: 0;
-  animation: 0.4s linear 1s infinite headerRGB;
-  animation: 5s alternate-reverse 1s infinite headerAnimation;
+  /* animation: 0.4s linear 1s infinite headerRGB;
+  animation: 5s alternate-reverse 1s infinite headerAnimation; */
 }
 
-@keyframes headerAnimation {
+/* @keyframes headerAnimation {
   0% {
     opacity: 30%;
     transform: translate(0px, -100px);
@@ -56,17 +55,17 @@
     transform: translate(0px, 0px);
     filter: drop-shadow(0.19em 0.09em hsl(250, 100%, 50%, 0.3));
   }
-}
+} */
 
 .header {
   font-size: 110px;
   margin: 0 auto;
   color: white;
   background: none;
-  animation: 0.4s linear 1s infinite headerRGB;
+  /* animation: 0.4s linear 1s infinite headerRGB; */
 }
 
-@keyframes headerRGB {
+/* @keyframes headerRGB {
   0% {
     filter: drop-shadow(0.1em 0.1em hsl(250, 100%, 50%, 0.3));
   }
@@ -86,7 +85,7 @@
   100% {
     filter: drop-shadow(0.1em 0.09em hsla(0, 100%, 50%, 0.3));
   }
-}
+} */
 
 .linkContainer {
   /* margin-top: -50px; */
@@ -104,9 +103,9 @@
   font-weight: bold;
   outline: none;
   font-style: italic;
-  filter: drop-shadow(0.08em 0.08em rgba(255, 0, 0, 0.6));
-  animation: rgbAnimation ease-in-out 0.4s;
-  animation-iteration-count: infinite;
+  /* filter: drop-shadow(0.08em 0.08em rgba(255, 0, 0, 0.6)); */
+  /* animation: rgbAnimation ease-in-out 0.4s;
+  animation-iteration-count: infinite; */
   transform-origin: 50% 50%;
   backdrop-filter: invert();
 }
@@ -115,7 +114,7 @@
   animation: none;
 }
 
-@keyframes rgbAnimation {
+/* @keyframes rgbAnimation {
   0% {
     filter: drop-shadow(0.12em 0.15em hsla(0, 100%, 50%, 0.6));
     backdrop-filter: invert();
@@ -131,7 +130,7 @@
   100% {
     filter: drop-shadow(0.12em 0.09em hsl(250, 100%, 50%, 0.6));
   }
-}
+} */
 
 @media only screen and (max-width: 1000px) {
   .linkContainer {

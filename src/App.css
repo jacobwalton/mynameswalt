@@ -1,6 +1,8 @@
 body {
+  margin: 0 auto;
   background: black;
   scroll-behavior: smooth;
+  max-width: 91%;
 }
 .App {
   min-height: calc(100vh - 70px);

@@ -36,11 +36,11 @@ const Header = () => {
         </div>
       </div>
       <div className="backgroundWords">
-        <h1>
+        <marquee>
           <Link activeClass="active" to="home" spy={true} smooth={true}>
             walt's not here
           </Link>
-        </h1>
+        </marquee>
         <br />
       </div>
     </div>

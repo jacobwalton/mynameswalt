@@ -7,9 +7,21 @@ import offSeasonArt from "../assets/offSeasonCover.jpg";
 import heartlessArt from "../assets/heartlessArt.jpg";
 import sevenDaysAlt from "../assets/sevenDaysAlt.jpg";
 import sevenDaysCover from "../assets/sevenDaysCover.jpg";
+
 const albums = [
   {
     id: 0,
+    albumName: "Walt and His Imagination",
+    type: "(EP)",
+    smartUrl: "",
+    artwork: sevenDaysCover,
+    altArtwork: sevenDaysAlt,
+    producedBy: "Walt",
+    releaseDate: "",
+  },
+
+  {
+    id: 1,
     albumName: "7 Days (A'Sean x Walt)",
     type: "(EP)",
     smartUrl: "https://smarturl.it/Stream7Days",
@@ -19,7 +31,7 @@ const albums = [
     releaseDate: "03/30/2021",
   },
   {
-    id: 1,
+    id: 2,
     albumName: "From Walt With Love",
     type: "(EP)",
     smartUrl: "https://smarturl.it/StreamFWWL",
@@ -29,7 +41,7 @@ const albums = [
     releaseDate: "12/15/2018",
   },
   {
-    id: 2,
+    id: 3,
     albumName: "Postcards",
     type: "(single)",
     smartUrl: "https://smarturl.it/StreamPostcards",
@@ -39,7 +51,7 @@ const albums = [
     releaseDate: "09/19/2018",
   },
   {
-    id: 3,
+    id: 4,
     albumName: "Off Season ft. A'Sean",
     type: "(single)",
     smartUrl: "https://smarturl.it/StreamOffSeason",
@@ -49,7 +61,7 @@ const albums = [
     releaseDate: "05/14/2018",
   },
   {
-    id: 4,
+    id: 5,
     albumName: "Purgatory",
     type: "(single)",
     smartUrl: "https://smarturl.it/StreamPurgatory",
@@ -59,7 +71,7 @@ const albums = [
     releaseDate: "02/02/2018",
   },
   {
-    id: 5,
+    id: 6,
     albumName: "Heartless",
     type: "(single)",
     smartUrl: "https://smarturl.it/streamheartless",

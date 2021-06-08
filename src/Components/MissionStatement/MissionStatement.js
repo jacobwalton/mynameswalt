@@ -15,8 +15,8 @@ const MissionStatement = () => {
           While working towards this goal, I hope to serve as a catalyst to
           bring forth healing, growth, expression and love in individuals.
           <br />
-          For those not ready or interested in change, at the very least, I
-          strive to take individuals to another world with my creations.
+          At the very least, I strive to take individuals to another world with
+          my creations.
         </p>
       </div>
     </div>

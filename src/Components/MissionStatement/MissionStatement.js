@@ -5,13 +5,15 @@ const MissionStatement = () => {
   return (
     <div>
       <div className="missionStatement">
-        <h2>Mission Statement</h2>
+        <h2>My Mission Statement as a Creator</h2>
 
         <p id="missionStatementText">
-          mission statement text here mission statement text here mission
-          statement text here mission statement text here mission statement text
-          here mission statement text here mission statement text here mission
-          statement text here mission statement text here
+          My goal has remained entact since I first started creating; to change
+          the world. While working towards this goal, I hope to serve as a
+          catalyst to bring forth healing, growth, expression and love in
+          individuals. For those not ready or interested in change, at the very
+          least, I strive to take individuals to another world with my
+          creations.
         </p>
       </div>
     </div>

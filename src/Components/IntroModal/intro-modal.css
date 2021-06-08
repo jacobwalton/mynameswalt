@@ -19,11 +19,27 @@
   margin-bottom: -30px;
 }
 .artwork {
+  margin: 0 auto;
   cursor: pointer;
   display: flex;
   max-width: 250px;
   border-radius: 2px;
   filter: drop-shadow(-10px 5px 0.65rem black);
-  margin-bottom: 20px;
-  backdrop-filter: blur(5px);
+}
+
+@media only screen and (max-width: 900px) {
+  .introModal {
+    width: 70%;
+    height: 60%;
+    padding-top: 90%;
+  }
+  .artwork {
+    margin: 0 auto;
+    cursor: pointer;
+    display: flex;
+    max-width: 250px;
+    border-radius: 2px;
+    filter: drop-shadow(-10px 5px 0.65rem black);
+    opacity: 100%;
+  }
 }

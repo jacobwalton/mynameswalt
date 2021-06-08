@@ -20,19 +20,21 @@ const Music = () => {
             {/* <div className="albumName text"></div> */}
 
             <div className="albumDesc text">
-              {item.albumName}
-              {item.type}
+              <strong>
+                {item.albumName}
+                {item.type}
+              </strong>
               <br />
               <p>Produced by: {item.producedBy}</p>
               <p>Released: {item.releaseDate}</p>
-              {item.tooltip ? (
-                <Tooltip title={item.tooltip}>
+              {item.secretTooltip ? (
+                <Tooltip title={<h4>{item.secretTooltip}</h4>}>
                   <a
                     className="albumLink text"
                     href={item.smartUrl}
                     target="_blank"
                   >
-                    Listen Now <OpenInNewIcon style={{ marginBottom: "-5" }} />
+                    shhh
                   </a>
                 </Tooltip>
               ) : (
@@ -41,7 +43,7 @@ const Music = () => {
                   href={item.smartUrl}
                   target="_blank"
                 >
-                  Listen Now <OpenInNewIcon style={{ marginBottom: "-5" }} />
+                  Listen Now
                 </a>
               )}
             </div>

@@ -15,12 +15,12 @@ const albums = [
     id: 0,
     albumName: "Walt and His Imagination",
     type: "(EP)",
-    smartUrl: "",
+    smartUrl: "https://ibb.co/t2g6wy2",
     artwork: wahiCover,
     altArtwork: wahiCoverAlt,
     producedBy: "Walt",
     releaseDate: "??????",
-    tooltip: "click for exclusive wallpaper",
+    secretTooltip: "click for exclusive wallpaper",
   },
 
   {
@@ -32,6 +32,7 @@ const albums = [
     altArtwork: sevenDaysAlt,
     producedBy: "Walt",
     releaseDate: "03/30/2021",
+    tooltip: "Collaboration EP with myself and A'Sean",
   },
   {
     id: 2,
@@ -42,6 +43,7 @@ const albums = [
     altArtwork: fwwlAnimated,
     producedBy: "Walt",
     releaseDate: "12/15/2018",
+    tooltip: "My debut EP",
   },
   {
     id: 3,
@@ -52,6 +54,7 @@ const albums = [
     altArtwork: postcardsAnimated,
     producedBy: "Walt",
     releaseDate: "09/19/2018",
+    tooltip: "My debut EP",
   },
   {
     id: 4,
@@ -62,6 +65,7 @@ const albums = [
     altArtwork: offSeasonArt,
     producedBy: "Walt",
     releaseDate: "05/14/2018",
+    tooltip: "Collaboration with A'Sean",
   },
   {
     id: 5,
@@ -72,6 +76,7 @@ const albums = [
     altArtwork: purgatoryArt,
     producedBy: "Walt",
     releaseDate: "02/02/2018",
+    tooltip: "Single",
   },
   {
     id: 6,
@@ -82,6 +87,7 @@ const albums = [
     altArtwork: heartlessArt,
     producedBy: "BlackMayo",
     releaseDate: "12/11/2017",
+    tooltip: "My debut single",
   },
 ];
 export default albums;

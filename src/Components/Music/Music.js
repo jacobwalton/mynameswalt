@@ -1,6 +1,7 @@
 import "./music.css";
 import albums from "../../util/data";
 import OpenInNewIcon from "@material-ui/icons/OpenInNew";
+import Tooltip from "@material-ui/core/Tooltip";
 
 const Music = () => {
   return (
@@ -23,9 +24,11 @@ const Music = () => {
             <div className="albumDesc">
               <p>Produced by: {item.producedBy}</p>
               <p>Released: {item.releaseDate}</p>
-              <a className="albumLink" href={item.smartUrl} target="_blank">
-                Listen Now <OpenInNewIcon style={{ marginBottom: "-5" }} />
-              </a>
+              <Tooltip title={item.tooltip}>
+                <a className="albumLink" href={item.smartUrl} target="_blank">
+                  Listen Now <OpenInNewIcon style={{ marginBottom: "-5" }} />
+                </a>
+              </Tooltip>
             </div>
           </div>
         );

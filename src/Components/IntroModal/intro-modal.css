@@ -1,0 +1,29 @@
+.introModal {
+  text-align: center;
+  color: black;
+  padding: 20px;
+  background-color: white;
+  width: 40%;
+  height: 80%;
+  padding-top: 20%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-height: 100%;
+  overflow: scroll;
+  outline: none;
+}
+
+#transition-modal-title {
+  padding: 0px;
+  margin-bottom: -30px;
+}
+.artwork {
+  cursor: pointer;
+  display: flex;
+  max-width: 250px;
+  border-radius: 2px;
+  filter: drop-shadow(-10px 5px 0.65rem black);
+  margin-bottom: 20px;
+  backdrop-filter: blur(5px);
+}

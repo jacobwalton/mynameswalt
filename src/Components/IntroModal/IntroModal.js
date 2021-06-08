@@ -3,6 +3,8 @@ import { makeStyles } from "@material-ui/core/styles";
 import Modal from "@material-ui/core/Modal";
 import Backdrop from "@material-ui/core/Backdrop";
 import Fade from "@material-ui/core/Fade";
+import albums from "../../util/data";
+import "./intro-modal.css";
 
 const useStyles = makeStyles((theme) => ({
   modal: {
@@ -45,8 +47,12 @@ export default function TransitionsModal() {
         }}
       >
         <Fade in={open}>
-          <div className={classes.paper}>
-            <h2 id="transition-modal-title">Thank you for visiting my site</h2>
+          <div className="introModal">
+            <h2 id="transition-modal-title">
+              Thank you for visiting my site
+              <hr />
+            </h2>
+
             <p>
               <br /> I've included some exclusive content only viewable here
               <em>(some of which is hidden).</em>
@@ -55,8 +61,13 @@ export default function TransitionsModal() {
               informing you what I'm working on, words of encouragement, tv show
               reccomendations or really anything.
             </p>
+            <br />
             <strong>WHAT I'M WORKING ON:</strong>
-            <h4 id="transition-modal-description">Walt and His Imagination</h4>
+            <br />
+            <img src={albums[0].artwork} class="artwork"></img>
+            <h5 id="transition-modal-description">
+              <em>Walt and His Imagination</em>
+            </h5>
             <p>
               <em>"Walt and His Imagination"</em> is an EP that I'm currently
               working on and hope to release soon. The title pretty much

@@ -7,6 +7,8 @@ import offSeasonArt from "../assets/offSeasonCover.jpg";
 import heartlessArt from "../assets/heartlessArt.jpg";
 import sevenDaysAlt from "../assets/sevenDaysAlt.jpg";
 import sevenDaysCover from "../assets/sevenDaysCover.jpg";
+import wahiCoverAlt from "../assets/wahiCoverAlt.gif";
+import wahiCover from "../assets/wahiCover.jpg";
 
 const albums = [
   {
@@ -14,10 +16,11 @@ const albums = [
     albumName: "Walt and His Imagination",
     type: "(EP)",
     smartUrl: "",
-    artwork: sevenDaysCover,
-    altArtwork: sevenDaysAlt,
+    artwork: wahiCover,
+    altArtwork: wahiCoverAlt,
     producedBy: "Walt",
-    releaseDate: "",
+    releaseDate: "??????",
+    tooltip: "click for exclusive wallpaper",
   },
 
   {

@@ -53,7 +53,7 @@ export default function TransitionsModal() {
               <hr />
             </h2>
 
-            <p>
+            <p id="greeting">
               <br /> I've included some exclusive content only viewable here
               <em>(some of which is hidden).</em>
               <br />
@@ -62,7 +62,7 @@ export default function TransitionsModal() {
               reccomendations or really anything.
             </p>
             <br />
-            <strong>WHAT I'M WORKING ON:</strong>
+            <p style={{ padding: 0, margin: 0 }}>WHAT I'M WORKING ON:</p>
             <br />
             <img src={albums[0].artwork} className="artwork"></img>
             <h5 id="transition-modal-description">

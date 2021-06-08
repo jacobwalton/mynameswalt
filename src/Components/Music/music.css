@@ -18,7 +18,7 @@
   flex-direction: column;
   flex-wrap: wrap;
 }
-.artwork {
+.card-artwork {
   cursor: pointer;
   margin: 0 auto;
   width: 90%;
@@ -37,7 +37,7 @@
 .albumDesc {
   line-height: 10px;
   color: white;
-
+  justify-content: space-between;
   display: flex;
   flex-direction: column;
 }
@@ -51,6 +51,13 @@
 }
 
 @media only screen and (max-width: 900px) {
+  .text {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 90%;
+    filter: drop-shadow(2px 2px #111);
+  }
   .musicCards {
     width: 100%;
     height: fit-content;
@@ -59,11 +66,10 @@
     width: 90%;
     padding-top: 35px;
   }
-  .artwork {
-    margin: 0 0;
+  .card-artwork {
     width: 100%;
-    opacity: 20%;
     height: 100%;
+    opacity: 20%;
     object-fit: cover;
   }
 
@@ -76,8 +82,6 @@
 
   .albumDesc {
     position: absolute;
-    /* left: 25%; */
-    /* margin: 0 auto; */
     line-height: 0px;
     margin-top: 0px;
   }

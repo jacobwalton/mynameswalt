@@ -14,7 +14,7 @@
   );
   backdrop-filter: blur(10px);
   flex-direction: column;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 h2 {
   text-align: center;
@@ -24,6 +24,7 @@ h2 {
 #missionStatementText {
   font-weight: lighter;
   font-size: 1em;
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 1000px) {

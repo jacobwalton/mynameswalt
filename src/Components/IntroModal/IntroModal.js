@@ -64,7 +64,7 @@ export default function TransitionsModal() {
             <br />
             <strong>WHAT I'M WORKING ON:</strong>
             <br />
-            <img src={albums[0].artwork} class="artwork"></img>
+            <img src={albums[0].artwork} className="artwork"></img>
             <h5 id="transition-modal-description">
               <em>Walt and His Imagination</em>
             </h5>

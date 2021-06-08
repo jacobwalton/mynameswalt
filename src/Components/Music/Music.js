@@ -24,11 +24,17 @@ const Music = () => {
             <div className="albumDesc">
               <p>Produced by: {item.producedBy}</p>
               <p>Released: {item.releaseDate}</p>
-              <Tooltip title={item.tooltip}>
+              {item.tooltip ? (
+                <Tooltip title={item.tooltip}>
+                  <a className="albumLink" href={item.smartUrl} target="_blank">
+                    Listen Now <OpenInNewIcon style={{ marginBottom: "-5" }} />
+                  </a>
+                </Tooltip>
+              ) : (
                 <a className="albumLink" href={item.smartUrl} target="_blank">
                   Listen Now <OpenInNewIcon style={{ marginBottom: "-5" }} />
                 </a>
-              </Tooltip>
+              )}
             </div>
           </div>
         );

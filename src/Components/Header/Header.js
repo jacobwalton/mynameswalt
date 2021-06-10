@@ -5,6 +5,43 @@ import { Link } from "react-scroll";
 const Header = () => {
   return (
     <div id="home">
+      <div className="backgroundWords">
+        <marquee>
+          <Link activeClass="active" to="home" spy={true} smooth={true}>
+            walt's not here
+          </Link>
+        </marquee>
+        <br />
+        <marquee>
+          <Link activeClass="active" to="home" spy={true} smooth={true}>
+            walt's not here
+          </Link>
+        </marquee>
+        <br />
+        <marquee>
+          <Link activeClass="active" to="home" spy={true} smooth={true}>
+            walt's not here
+          </Link>
+        </marquee>
+        <br />
+        <marquee>
+          <Link activeClass="active" to="home" spy={true} smooth={true}>
+            walt's not here
+          </Link>
+        </marquee>
+        <br />
+        <marquee>
+          <Link activeClass="active" to="home" spy={true} smooth={true}>
+            walt's not here
+          </Link>
+        </marquee>
+        <br />
+        <marquee>
+          <Link activeClass="active" to="home" spy={true} smooth={true}>
+            walt's not here
+          </Link>
+        </marquee>
+      </div>
       <div className="headerContainer">
         <h2 className="header">
           <Link activeClass="active" to="home" spy={true} smooth={true}>
@@ -34,14 +71,6 @@ const Header = () => {
             <OpenInNewIcon style={{ marginBottom: "-5", marginLeft: "5" }} />
           </a>
         </div>
-      </div>
-      <div className="backgroundWords">
-        <marquee>
-          <Link activeClass="active" to="home" spy={true} smooth={true}>
-            walt's not here
-          </Link>
-        </marquee>
-        <br />
       </div>
     </div>
   );

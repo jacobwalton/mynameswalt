@@ -8,17 +8,18 @@
   background: none;
   flex-direction: column;
   text-align: center;
-  /* animation: 1s ease-in 1s 1 headerAnimation; */
+  animation: 1s ease-in 1s 1 headerAnimation;
   transform-origin: 50% 50%;
   /* filter: drop-shadow(0.2em 0.2em rgba(255, 0, 0, 0.6)); */
   mix-blend-mode: difference;
 }
 
 .backgroundWords {
+  filter: blur(2px);
   font-weight: bolder;
   letter-spacing: 0.5em;
   margin: 20px auto;
-  opacity: 70%;
+  opacity: 20%;
   width: 100%;
   display: flex;
   background: none;
@@ -29,8 +30,8 @@
   mix-blend-mode: difference;
   position: fixed;
   padding: 0;
-  /* animation: 0.4s linear 1s infinite headerRGB;
-  animation: 5s alternate-reverse 1s infinite headerAnimation; */
+  /* animation: 0.4s linear 1s infinite headerRGB; */
+  /* animation: 5s alternate-reverse 1s 1 headerAnimation; */
 }
 
 /* @keyframes headerAnimation {

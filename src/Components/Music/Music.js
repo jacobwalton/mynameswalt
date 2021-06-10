@@ -1,6 +1,5 @@
 import "./music.css";
 import albums from "../../util/data";
-import OpenInNewIcon from "@material-ui/icons/OpenInNew";
 import Tooltip from "@material-ui/core/Tooltip";
 
 const Music = () => {
@@ -17,7 +16,6 @@ const Music = () => {
               src={item.artwork}
               alt={item.albumName}
             />
-            {/* <div className="albumName text"></div> */}
 
             <div className="albumDesc text">
               <strong>

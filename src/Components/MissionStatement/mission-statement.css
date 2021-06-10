@@ -1,4 +1,7 @@
 .missionStatement {
+  backdrop-filter: invert();
+  opacity: 70%;
+  font-size: small;
   color: black;
   font-weight: bold;
   margin: 0 auto;
@@ -14,7 +17,6 @@
   );
   backdrop-filter: blur(10px);
   flex-direction: column;
-  padding-bottom: 50px;
 }
 h2 {
   text-align: center;

@@ -101,7 +101,7 @@
   cursor: pointer;
   text-decoration: none;
   color: rgb(255, 255, 255);
-  mix-blend-mode: difference;
+  /* mix-blend-mode: difference; */
   font-size: 20px;
   font-weight: bold;
   outline: none;
@@ -114,7 +114,7 @@
 }
 
 .link:hover {
-  animation: none;
+  opacity: 70%;
 }
 
 /* @keyframes rgbAnimation {

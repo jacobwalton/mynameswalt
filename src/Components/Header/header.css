@@ -110,7 +110,7 @@
   /* animation: rgbAnimation ease-in-out 0.4s;
   animation-iteration-count: infinite; */
   transform-origin: 50% 50%;
-  backdrop-filter: invert();
+  /* backdrop-filter: invert(); */
 }
 
 .link:hover {

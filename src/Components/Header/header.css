@@ -95,7 +95,7 @@
   display: flex;
   justify-content: space-between;
   min-width: 40%;
-  backdrop-filter: invert();
+  /* backdrop-filter: invert(); */
 }
 .link {
   cursor: pointer;

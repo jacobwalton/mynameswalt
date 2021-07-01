@@ -5,7 +5,7 @@ const MissionStatement = () => {
   return (
     <div>
       <div className="missionStatement">
-        <h2>My Mission Statement as a Creator</h2>
+        <h2>My Mission Statement</h2>
 
         <strong id="missionStatementText">
           <hr color="grey" />

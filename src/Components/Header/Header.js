@@ -6,41 +6,29 @@ const Header = () => {
   return (
     <div id="home">
       <div className="backgroundWords">
-        <marquee>
-          <Link activeClass="active" to="home" spy={true} smooth={true}>
-            walt's not here
-          </Link>
-        </marquee>
+        <h2>
+          <Link>walt's not here</Link>
+        </h2>
         <br />
-        <marquee>
-          <Link activeClass="active" to="home" spy={true} smooth={true}>
-            walt's not here
-          </Link>
-        </marquee>
+        <h2>
+          <Link>walt's not here</Link>
+        </h2>
         <br />
-        <marquee>
-          <Link activeClass="active" to="home" spy={true} smooth={true}>
-            walt's not here
-          </Link>
-        </marquee>
+        <h2>
+          <Link>walt's not here</Link>
+        </h2>
         <br />
-        <marquee>
-          <Link activeClass="active" to="home" spy={true} smooth={true}>
-            walt's not here
-          </Link>
-        </marquee>
+        <h2>
+          <Link>walt's not here</Link>
+        </h2>
         <br />
-        <marquee>
-          <Link activeClass="active" to="home" spy={true} smooth={true}>
-            walt's not here
-          </Link>
-        </marquee>
+        <h2>
+          <Link>walt's not here</Link>
+        </h2>
         <br />
-        <marquee>
-          <Link activeClass="active" to="home" spy={true} smooth={true}>
-            walt's not here
-          </Link>
-        </marquee>
+        <h2>
+          <Link>walt's not here</Link>
+        </h2>
       </div>
       <div className="headerContainer">
         <h2 className="header">

@@ -49,7 +49,7 @@ export default function TransitionsModal() {
       >
         <Fade in={open}>
           <div className="introModal">
-            <div classname="modalContent">
+            <div className="modalContent">
               <h2 id="transition-modal-title">
                 Thank you for visiting my site
                 <hr />

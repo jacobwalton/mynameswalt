@@ -31,9 +31,7 @@ const Music = () => {
                     className="albumLink text"
                     href={item.smartUrl}
                     target="_blank"
-                  >
-                    shhh
-                  </a>
+                  ></a>
                 </Tooltip>
               ) : (
                 <a

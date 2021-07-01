@@ -15,8 +15,8 @@ function App() {
         <Header />
         <MissionStatement />
         <Music />
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 }

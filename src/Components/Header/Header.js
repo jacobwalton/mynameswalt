@@ -44,7 +44,7 @@ const Header = () => {
 
           <a
             className="link"
-            href="https://www.twitter.com/mynameswalt"
+            href="https://www.twitter.com/waltsnothere"
             target="_blank"
           >
             twitter
@@ -52,7 +52,7 @@ const Header = () => {
           </a>
           <a
             className="link"
-            href="https://www.instagram.com/mynameswalt"
+            href="https://www.instagram.com/waltsnothere"
             target="_blank"
           >
             instagram

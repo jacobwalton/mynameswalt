@@ -27,7 +27,7 @@ const albums = [
     id: 1,
     albumName: "7 Days (A'Sean x Walt)",
     type: "(EP)",
-    smartUrl: "https://smarturl.it/Stream7Days",
+    smartUrl: "http://smarturl.it/streamsevendays",
     artwork: sevenDaysCover,
     altArtwork: sevenDaysAlt,
     producedBy: "Walt",

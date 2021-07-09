@@ -1,9 +1,29 @@
 body {
   margin: 0 auto;
-  background: black;
+  /* background: black; */
   scroll-behavior: smooth;
   max-width: 100%;
+  /* background: linear-gradient(45deg, #51b351, #b4636e, #5b8694, #a3a860); */
+  background: linear-gradient(45deg, #231549, #2f0833, #112a33, #3f4211);
+  background-size: 200% 200%;
+  animation: gradient 4s ease-in-out infinite;
 }
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  25% {
+    background-position: 50% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 .App {
   min-height: calc(100vh - 70px);
 }
